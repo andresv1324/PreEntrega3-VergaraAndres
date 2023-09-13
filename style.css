@@ -2,8 +2,11 @@ body {
     background-color: rgb(98, 23, 186);
 }
 
+
+/* Estilos DOM */
+
 .navbar{
-    background-color: #32FBE2;
+    background-color: rgb(50, 251, 226);
 }
 
 .valoresBebida {
@@ -17,7 +20,7 @@ body {
     /* Los elementos estarán alineados a la derecha */
 }
 
-.nose {
+.lista{
     justify-items: center;
     margin: 2em;
     display: grid;
@@ -25,28 +28,37 @@ body {
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
 }
 
+/* ESTILOS DE LAS CART DEL MENU */
 .menu {
-    background-color: rgb(138, 43, 226);
+    background-color: rgb(168, 83, 255);
     box-shadow: 0 0 15px rgba(153, 255, 0, 0.8);
 }
 
+
+/* ESTILOS DEL MODAL */
+
+/* ESTILOS DE LAS CART DEL MODAL */
 .menuCarrito {
     box-shadow: 0 0 10px rgba(153, 255, 0, 0.8);
-    background-color: rgb(138, 43, 226);
+    background-color: rgb(168, 83, 255);
 }
 
-.modal-header {
-    border-bottom: solid rgba(153, 255, 0, 0.8) 2px;
-}
-
+/* CONTENEDOR DEL MODAL */
 .modal-content {
     background-color: rgb(138, 43, 226);
 }
 
+/* PARTE DE ARRIBA DEL MODAL*/
+.modal-header {
+    border-bottom: solid rgba(153, 255, 0, 0.8) 2px;
+}
+
+/* INTERIOR DEL MODAL */
 .modal-body {
     background-color: rgb(124, 124, 125);
 }
 
+/* PARDE DE ABAJO DEL MODAL */
 .modal-footer {
     border-top: solid rgba(153, 255, 0, 0.8) 2px;
 }
@@ -55,16 +67,21 @@ body {
     font-weight: bold;
 }
 
-
-footer {
-    color: black;
-    background-color: #32FBE2;
-    text-align: center;
-    padding: 1em 0;
-    margin: 0;
+/* TACHOS DEL MODAL */
+.trashCarrito, .trash{
+    background-color: rgb(255, 0, 0);
 }
 
 .trash {
-    background-color: rgb(255, 0, 0);
     margin-right: 8em;
+}
+
+
+
+footer {
+    color: black;
+    background-color: rgb(50, 251, 226);
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
 }
